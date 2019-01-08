@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace Shop.Enity
 {
     class Buyer
-    { public int Id { set; get; }   
+    {   
+        public int Id { set; get; }   
         public String Name { get; set; }
         public String Address { get; set; }
     }
